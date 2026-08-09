@@ -1,0 +1,96 @@
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: #99bbff;
+  background:#f1dba3;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.booth{
+  position:relative;
+  width:500px;
+  height:550px;
+}
+
+.booth img{
+  position:absolute;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  top:0;
+  left:0;
+}
+
+/* OPEN curtain hidden by default */
+.open{
+  display:none;
+}
+
+/* When hovering booth */
+.booth:hover .open{
+  display:block;
+}
+
+.booth:hover .closed{
+  display:none;
+}
+
+button{
+  position:absolute;
+  bottom: -65px;
+  left:50%;
+  transform:translateX(-50%);
+
+  padding:8px 15px;
+  font-size:25px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+
+  background:rgb(255, 255, 255);
+  color:black;
+  font-weight:bold;
+
+  font-family: "Jersey 10", sans-serif;
+  border:5px solid black;
+  letter-spacing: 3px;
+}
+/* POPUP */
+
+.popup{
+  position:fixed;
+  inset:0;
+
+  background:rgba(0,0,0,0.6);
+
+  display:none;
+
+  justify-content:center;
+  align-items:center;
+}
+
+.popup-content{
+  background:rgb(239, 236, 212);
+
+  padding:30px;
+
+  border-radius:20px;
+
+  display:flex;
+  gap:30px;
+  border:6px solid black;
+}
+
+.option{
+  width:180px;
+  cursor:pointer;
+
+  transition:0.2s;
+}
+
+.option:hover{
+  transform:scale(1.05);
+}

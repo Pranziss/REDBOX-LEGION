@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/camera.css">
+</head>
+<body>
+
+  <select id="cameraSelect"></select>
+
+  <!-- Everything is packed into this ONE container so they stay together -->
+  <div class="camera-container">
+
+    <video id="video" autoplay playsinline></video>
+    <img src="images/camera-border.png" id="cameraFrame">
+    
+    <h1 id="countdown"></h1>
+
+    <!-- Main large button -->
+    <button id="captureBtn">TAKE PHOTO</button>
+
+    <!-- Lower row buttons sit directly underneath TAKE PHOTO -->
+    <div class="actions">
+      <button id="retakeBtn">RETAKE</button>
+      <button id="saveBtn">SAVE</button>
+      
+      <!-- Your design selection dropdown sits perfectly in line here -->
+      <select id="designSelect" style="font-family: 'Jersey 10', sans-serif; font-size: 20px; border: 5px solid black; padding: 0 10px; cursor: pointer;">
+        <option value="classic">NO FRAME (PLAIN)</option>
+        <option value="images/design1.png">FRAME ART 1</option>
+        <option value="images/strip6.png">FRAME ART 2</option>
+      </select>
+
+      <!-- Styled unified button label -->
+      <label for="uploadInput" class="custom-file-upload">CHOOSE FILE</label>
+      <input type="file" id="uploadInput" accept="image/*">
+    </div>
+
+  </div>
+
+  <!-- Captured photos go here -->
+  <div class="strip" id="strip"></div>
+
+  <!-- Hidden canvas utility -->
+  <canvas id="canvas"></canvas>
+
+  <script src="scripts/qrcode.min.js"></script>
+  <script src="scripts/camera.js" defer></script>
+
+</body>
+</html>
