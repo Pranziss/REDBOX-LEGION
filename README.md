@@ -43,7 +43,7 @@ Deployed and run live at a school event — guests used it, strips printed corre
 | | |
 |---|---|
 | ![Photo 1](image5.jpg) | ![Photo 2](image4b.jpg) |
-| ![Photo 3](image2b.jpg) | ![Photo 4](image3bl.png) |
+| ![Photo 3](image2bl.png) | ![Photo 4](image3bl.png) |
 
 ## Questions / issues
 
