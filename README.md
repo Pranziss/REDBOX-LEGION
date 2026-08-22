@@ -45,6 +45,11 @@ Deployed and run live at a school event — guests used it, strips printed corre
 | ![Photo 1](image5.jpg) | ![Photo 2](image4b.jpg) |
 | ![Photo 3](image2bl.png) | ![Photo 4](image3bl.png) |
 
+## Contributors
+
+- [aranets](https://github.com/aranets)
+- [johnashborn](https://github.com/johnashborn)
+
 ## Questions / issues
 
 Message me directly if something's broken.
