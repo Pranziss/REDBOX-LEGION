@@ -42,8 +42,8 @@ Deployed and run live at a school event — guests used it, strips printed corre
 
 | | |
 |---|---|
-| ![Photo 1](image1.jpg) | ![Photo 2](image2.jpg) |
-| ![Photo 3](image3.jpg) | ![Photo 4](image4.jpg) |
+| ![Photo 1](image5.jpg) | ![Photo 2](image4.jpg) |
+| ![Photo 3](image2.jpg) | ![Photo 4](image3.jpg) |
 
 ## Questions / issues
 
